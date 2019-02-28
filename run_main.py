@@ -129,3 +129,4 @@ if __name__ == '__main__':
     smtp_password = "admin123456"
     receive_user = ['yinqiang@itsource.cn']
     send_mail(smtp_server, smtp_user, smtp_password, receive_user, report_filepath)
+    print("nice to see you")
